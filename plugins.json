@@ -5,7 +5,7 @@
   "packages": {
     "calculator": {
       "description": "In-editor calculator with expression evaluation",
-      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "repository": "https://github.com/sinelaw/fresh-plugins#calculator",
       "author": "Fresh Editor Team",
       "license": "MIT",
       "keywords": ["calculator", "math", "utility"],
@@ -14,7 +14,7 @@
     },
     "color-highlighter": {
       "description": "Highlights color codes (hex, rgb, hsl) with their actual colors",
-      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "repository": "https://github.com/sinelaw/fresh-plugins#color-highlighter",
       "author": "Fresh Editor Team",
       "license": "MIT",
       "keywords": ["color", "css", "highlighting", "preview"],
@@ -23,7 +23,7 @@
     },
     "todo-highlighter": {
       "description": "Highlights TODO, FIXME, HACK, and other comment annotations",
-      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "repository": "https://github.com/sinelaw/fresh-plugins#todo-highlighter",
       "author": "Fresh Editor Team",
       "license": "MIT",
       "keywords": ["todo", "fixme", "highlighting", "annotations"],
