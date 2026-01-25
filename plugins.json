@@ -1,0 +1,6 @@
+{
+  "$schema": "./schemas/registry.schema.json",
+  "schema_version": 1,
+  "updated": "2026-01-25T00:00:00Z",
+  "packages": {}
+}
