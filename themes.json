@@ -1,6 +1,25 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-01-25T00:00:00Z",
-  "packages": {}
+  "updated": "2026-01-25T13:00:00Z",
+  "packages": {
+    "catppuccin": {
+      "description": "Catppuccin theme variants (Latte, Frappe, Macchiato, Mocha) - soothing pastel themes",
+      "repository": "https://github.com/sinelaw/fresh-plugins#themes/catppuccin",
+      "author": "Catppuccin",
+      "license": "MIT",
+      "keywords": ["theme", "catppuccin", "pastel", "dark", "light"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    },
+    "xscriptor": {
+      "description": "Xscriptor city-themed color schemes (Berlin, Bogota, Helsinki, and more)",
+      "repository": "https://github.com/sinelaw/fresh-plugins#themes/xscriptor",
+      "author": "Xscriptor",
+      "license": "MIT",
+      "keywords": ["theme", "xscriptor", "dark", "city"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    }
+  }
 }
