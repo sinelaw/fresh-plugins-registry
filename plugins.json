@@ -1,6 +1,34 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-01-25T00:00:00Z",
-  "packages": {}
+  "updated": "2026-01-25T13:00:00Z",
+  "packages": {
+    "calculator": {
+      "description": "In-editor calculator with expression evaluation",
+      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["calculator", "math", "utility"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    },
+    "color-highlighter": {
+      "description": "Highlights color codes (hex, rgb, hsl) with their actual colors",
+      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["color", "css", "highlighting", "preview"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    },
+    "todo-highlighter": {
+      "description": "Highlights TODO, FIXME, HACK, and other comment annotations",
+      "repository": "https://github.com/sinelaw/fresh-plugins",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["todo", "fixme", "highlighting", "annotations"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    }
+  }
 }
