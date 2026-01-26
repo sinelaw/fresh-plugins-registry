@@ -1,0 +1,16 @@
+{
+  "$schema": "./schemas/registry.schema.json",
+  "schema_version": 1,
+  "updated": "2026-01-26T13:00:00Z",
+  "packages": {
+    "solidity": {
+      "description": "Solidity language support - syntax highlighting and LSP for smart contracts",
+      "repository": "https://github.com/sinelaw/fresh-plugins#languages/solidity",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["solidity", "ethereum", "smart-contracts", "blockchain", "web3"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
+    }
+  }
+}
