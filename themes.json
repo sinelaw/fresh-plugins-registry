@@ -20,6 +20,15 @@
       "keywords": ["theme", "xscriptor", "dark", "city"],
       "latest_version": "1.0.0",
       "fresh_min_version": "0.1.0"
+    },
+    "bluloco": {
+      "description": "A fancy and sophisticated dark color scheme / theme for Fresh editor",
+      "repository": "https://github.com/Nandaleio/bluloco-fresh",
+      "author": "Uloco",
+      "license": "MIT",
+      "keywords": ["color-theme", "theme", "dark", "light", "colorful"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.75"
     }
   }
 }
