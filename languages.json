@@ -1,8 +1,17 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-01-28T17:20:00Z",
+  "updated": "2026-02-02T20:15:00Z",
   "packages": {
+    "elixir": {
+      "description": "Elixir language support - syntax highlighting and LSP",
+      "repository": "https://github.com/sinelaw/fresh-plugins#languages/elixir",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["elixir", "erlang", "beam", "functional"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
+    },
     "hare": {
       "description": "Hare programming language support - syntax highlighting and LSP",
       "repository": "https://github.com/sinelaw/fresh-plugins#languages/hare",
