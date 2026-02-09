@@ -38,6 +38,15 @@
       "keywords": ["amp", "ai", "coding", "agent", "sourcegraph"],
       "latest_version": "0.1.0",
       "fresh_min_version": "0.1.0"
-    }
+    },
+    "dotfiles": {
+      "description": "Syntax Highlighting support for Environment (.env) Files",
+      "repository": "https://github.com/2fd/dotfiles-fresh-language",
+      "author": "2fd <i@2fd.me>",
+      "license": "MIT",
+      "keywords": ["env", "environment"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.0"
+    },
   }
 }
