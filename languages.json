@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-02-02T20:15:00Z",
+  "updated": "2026-02-20T01:00:00Z",
   "packages": {
     "elixir": {
       "description": "Elixir language support - syntax highlighting and LSP",
@@ -28,6 +28,15 @@
       "license": "MIT",
       "keywords": ["solidity", "ethereum", "smart-contracts", "blockchain", "web3"],
       "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
+    },
+    "vue-sfc-basic": {
+      "description": "Basic Vue 3 Single File Component (SFC) support for Fresh – syntax highlighting + Volar LSP",
+      "repository": "https://github.com/unoctanium/fresh-vue-language",
+      "author": "Odo Maletzki",
+      "license": "MIT",
+      "keywords": ["vue", "vue3", "sfc", "volar", "typescript", "javascript", "fresh-editor"],
+      "latest_version": "1.0.0",
       "fresh_min_version": "0.1.0"
     }
   }
