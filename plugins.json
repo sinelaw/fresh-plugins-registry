@@ -29,6 +29,15 @@
       "keywords": ["todo", "fixme", "highlighting", "annotations"],
       "latest_version": "1.0.0",
       "fresh_min_version": "0.1.0"
+    },
+    "amp": {
+      "description": "Amp AI coding agent integration for Fresh Editor",
+      "repository": "https://github.com/sinelaw/fresh-plugins#amp",
+      "author": "Fresh Editor Team",
+      "license": "Apache-2.0",
+      "keywords": ["amp", "ai", "coding", "agent", "sourcegraph"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
     }
   }
 }
