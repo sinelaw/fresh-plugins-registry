@@ -48,5 +48,14 @@
       "latest_version": "1.0.0",
       "fresh_min_version": "0.1.0"
     },
+    "text-actions": {
+      "description": "Adds text encode, decode and transform actions for developers",
+      "repository": "https://github.com/PavelLoparev/fresh-text-actions-plugin",
+      "author": "Pavel Loparev",
+      "license": "MIT",
+      "keywords": ["transform", "encode", "decode"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
+    }
   }
 }
