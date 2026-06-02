@@ -29,6 +29,15 @@
       "keywords": ["color-theme", "theme", "dark", "light", "colorful"],
       "latest_version": "1.0.0",
       "fresh_min_version": "0.1.75"
+    },
+    "monokai": {
+      "description": "Classic Monokai color theme for the Fresh terminal editor",
+      "repository": "https://github.com/lucasoskorep/fresh-monokai",
+      "author": "Lucas Oskorep",
+      "license": "GPL-3.0-or-later",
+      "keywords": ["color-theme", "theme", "monokai", "dark", "classic"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.1.75"
     }
   }
 }
