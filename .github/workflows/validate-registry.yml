@@ -1,0 +1,50 @@
+name: Validate Registry
+
+# Validate the registry JSON files against their JSON schemas on every PR
+# and on pushes to main, so malformed entries are caught before merge.
+on:
+  pull_request:
+    paths:
+      - "*.json"
+      - "schemas/**"
+      - ".github/workflows/validate-registry.yml"
+  push:
+    branches: [main]
+    paths:
+      - "*.json"
+      - "schemas/**"
+      - ".github/workflows/validate-registry.yml"
+
+jobs:
+  validate:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ajv
+        run: npm install --no-save ajv-cli@5 ajv-formats@3
+
+      - name: Validate registry files (plugins, themes, languages)
+        run: |
+          npx ajv validate \
+            --spec=draft2020 \
+            -c ajv-formats \
+            -s schemas/registry.schema.json \
+            -d plugins.json \
+            -d themes.json \
+            -d languages.json
+
+      - name: Validate blocklist
+        run: |
+          npx ajv validate \
+            --spec=draft2020 \
+            -c ajv-formats \
+            -s schemas/blocklist.schema.json \
+            -d blocklist.json

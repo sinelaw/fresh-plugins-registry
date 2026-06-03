@@ -15,6 +15,10 @@ The official package registry for [Fresh Editor](https://github.com/fresh-editor
 2. Add your package to `plugins.json` or `themes.json`
 3. Submit a pull request
 
+Every pull request is automatically validated against the JSON schemas in
+`schemas/` by the [Validate Registry](.github/workflows/validate-registry.yml)
+GitHub Action. Make sure your changes pass before requesting review.
+
 See the [Package Marketplace Design](https://github.com/fresh-editor/fresh/blob/master/docs/internal/PLUGIN_MARKETPLACE_DESIGN.md) for full documentation on registry format, package manifests, and monorepo support.
 
 ## License
