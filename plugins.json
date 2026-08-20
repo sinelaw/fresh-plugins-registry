@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-01-25T13:00:00Z",
+  "updated": "2026-08-20T00:00:00Z",
   "packages": {
     "calculator": {
       "description": "In-editor calculator with expression evaluation",
@@ -56,6 +56,15 @@
       "keywords": ["transform", "encode", "decode"],
       "latest_version": "0.1.0",
       "fresh_min_version": "0.1.0"
+    },
+    "file-diff": {
+      "description": "Side-by-side diff of any two files on disk \u2014 no git, no repository required",
+      "repository": "https://github.com/sinelaw/fresh-plugins#file-diff",
+      "author": "Fresh Editor Team",
+      "license": "MIT",
+      "keywords": ["diff", "compare", "files", "side-by-side"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.4.9"
     }
   }
 }
