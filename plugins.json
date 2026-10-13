@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-10-13T00:00:00Z",
+  "updated": "2026-10-13T15:55:00Z",
   "packages": {
     "calculator": {
       "description": "In-editor calculator with expression evaluation",
@@ -65,6 +65,15 @@
       "keywords": ["diff", "compare", "files", "side-by-side"],
       "latest_version": "1.0.0",
       "fresh_min_version": "0.4.9"
+    },
+    "rst-compose": {
+      "description": "Edit reStructuredText with compose layout and cursor-revealed markup",
+      "repository": "https://github.com/asukaminato0721/fresh-plugins#rst-compose",
+      "author": "asukaminato0721",
+      "license": "MIT",
+      "keywords": ["rst", "restructuredtext", "compose", "writing"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.5.3"
     },
     "polkit": {
       "description": "JavaScript syntax highlighting for polkit rules.d files",
