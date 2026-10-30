@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-10-13T00:00:00Z",
+  "updated": "2026-10-30T00:00:00Z",
   "packages": {
     "elixir": {
       "description": "Elixir language support - syntax highlighting and LSP",
@@ -123,6 +123,15 @@
       ],
       "repository": "https://github.com/sinelaw/fresh-plugins#languages/ssh-config",
       "latest_version": "0.1.0"
+    },
+    "goose": {
+      "description": "Goose language support for Fresh - syntax highlighting, LSP and formatting for .goose files",
+      "repository": "https://github.com/epidemicz/fresh-goose",
+      "author": "Timothy Zenner",
+      "license": "MIT",
+      "keywords": ["goose", "systems-programming"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.1.0"
     }
   }
 }
