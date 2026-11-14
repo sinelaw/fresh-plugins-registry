@@ -123,6 +123,18 @@
       ],
       "repository": "https://github.com/sinelaw/fresh-plugins#languages/ssh-config",
       "latest_version": "0.1.0"
+    },
+    "haxe": {
+      "description": "Syntax highlighting for Haxe (.hx) in Fresh IDE",
+      "repository": "https://github.com/ryansdjr/fresh-haxe",
+      "author": "ryansdjr",
+      "license": "MIT",
+      "keywords": [
+            "haxe",
+            "hx",
+            "syntax"
+      ],
+      "latest_version": "0.1.0"
     }
   }
 }
