@@ -1,8 +1,17 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-10-13T00:00:00Z",
+  "updated": "2026-10-13T11:15:23Z",
   "packages": {
+    "image-preview": {
+      "description": "Preview images with theme-aware colors using Chafa or ImageMagick",
+      "repository": "https://github.com/asukaminato0721/fresh-plugins#image-preview",
+      "author": "asukaminato0721",
+      "license": "MIT",
+      "keywords": ["image", "preview", "png", "jpeg", "chafa"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.5.3"
+    },
     "calculator": {
       "description": "In-editor calculator with expression evaluation",
       "repository": "https://github.com/sinelaw/fresh-plugins#calculator",
