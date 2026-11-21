@@ -1,8 +1,35 @@
 {
   "$schema": "./schemas/registry.schema.json",
   "schema_version": 1,
-  "updated": "2026-10-13T00:00:00Z",
+  "updated": "2026-10-13T10:46:11Z",
   "packages": {
+    "minimap": {
+      "description": "A clickable code minimap in the Fresh sidebar",
+      "repository": "https://github.com/asukaminato0721/fresh-plugins#minimap",
+      "author": "asukaminato0721",
+      "license": "MIT",
+      "keywords": ["minimap", "navigation", "sidebar"],
+      "latest_version": "1.0.0",
+      "fresh_min_version": "0.5.2"
+    },
+    "git-review": {
+      "description": "Review working changes and commits in an expandable Git tree",
+      "repository": "https://github.com/asukaminato0721/fresh-plugins#git-review",
+      "author": "asukaminato0721",
+      "license": "MIT",
+      "keywords": ["git", "review", "commits", "diff"],
+      "latest_version": "1.2.0",
+      "fresh_min_version": "0.5.2"
+    },
+    "dap": {
+      "description": "Debug Adapter Protocol client with breakpoints, variables, and stepping",
+      "repository": "https://github.com/asukaminato0721/fresh-plugins#dap",
+      "author": "asukaminato0721",
+      "license": "MIT",
+      "keywords": ["debug", "dap", "breakpoint", "debugger"],
+      "latest_version": "0.1.0",
+      "fresh_min_version": "0.5.3"
+    },
     "calculator": {
       "description": "In-editor calculator with expression evaluation",
       "repository": "https://github.com/sinelaw/fresh-plugins#calculator",
